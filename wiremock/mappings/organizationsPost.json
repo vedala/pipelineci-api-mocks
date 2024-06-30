@@ -1,0 +1,15 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPattern": "/organizations/*"
+  },
+
+  "response": {
+    "status": 200,
+    "bodyFileName": "organizationsPostData.json",
+    "headers": {
+        "Content-Type": "text/plain",
+        "Access-Control-Allow-Origin": "*"
+    }
+  }
+}
