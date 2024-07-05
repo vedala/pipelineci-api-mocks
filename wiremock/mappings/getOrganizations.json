@@ -1,0 +1,15 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/organizations.*"
+  },
+
+  "response": {
+    "status": 200,
+    "bodyFileName": "getOrganizationsData.json",
+    "headers": {
+        "Content-Type": "text/plain",
+        "Access-Control-Allow-Origin": "*"
+    }
+  }
+}
